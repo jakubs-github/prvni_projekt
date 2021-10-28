@@ -81,7 +81,12 @@ for slovo in jednotlivy_text.split():
 
 # Analýza textu a výpis
 
-pocitadlo = {"sum": 0, "titlecase": 0, "uppercase": 0, "lowercase": 0, "num": 0, "sumnum": 0}
+pocitadlo = {"sum": 0,
+             "titlecase": 0,
+             "uppercase": 0,
+             "lowercase": 0,
+             "num": 0,
+             "sumnum": 0}
 
 for slovo in vycistena_slova:
     if slovo.istitle():
