@@ -42,7 +42,8 @@ database = {
     'liz': 'pass123'
 			}
 
-# vložení a ověření uživatelského jména a hesla, v případě nesprávných údajů oznámit a ukončit
+# vložení a ověření uživatelského jména a hesla,
+# v případě nesprávných údajů oznámit a ukončit
 uzivatelske_jmeno = input("username: ")
 heslo = input("password: ")
 
@@ -129,6 +130,7 @@ for slovo in vycistena_slova:
     elif len(slovo) in delky_slov:
         delky_slov[len(slovo)] += 1
 
+# výpis výsledků
 print(f"""LEN|    OCCURENCES    | NR.
 {oddelovac}""")
 for key, value in sorted(delky_slov.items()):
