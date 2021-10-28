@@ -1,5 +1,5 @@
 '''
-author =
+author = Jakub Kupka
 '''
 TEXTS = ['''
 Situated about 10 miles west of Kemmerer, 
